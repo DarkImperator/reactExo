@@ -1,0 +1,29 @@
+.dinopict {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.dinoX {
+    border-radius: 10px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 25vw;
+    height: 50vh;
+    flex-wrap: no-wrap;
+}
+
+figcaption {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.descrip {
+    font-size: 0.8em; 
+}

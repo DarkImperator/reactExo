@@ -1,0 +1,10 @@
+h1 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 50px 10px;
+}

@@ -1,0 +1,9 @@
+input {
+    box-shadow: 10px 5px 5px red;
+    padding: 10px;
+    width: 33vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
