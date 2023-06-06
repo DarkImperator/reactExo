@@ -1,32 +1,35 @@
 .dinopict {
-    width: 200px;
-    height: auto;
+    width: 350px;
+    min-height: 200px;
+    /* height: auto; */
     border-radius: 5px;
 }
 
 .dinoX {
     width: 20vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
     border: 1px solid;
     box-shadow: 10px 5px 5px lightgreen;
-    /*background-color: blue; pour test a supprimer*/
+    background-color: rgba(65, 105, 225, 0.836);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     margin: 10px;
-    
     flex-wrap: no-wrap;
 }
 
 figcaption {
+    font-size: 2em;
+    font-weight: bolder;
     margin: 10px;
     padding: 10px;
-
+    color: rebeccapurple;
 }
 
 .descrip {
-    font-size: 0.8em; 
+    font-size: 0.95em;
+    color: yellow;
 }

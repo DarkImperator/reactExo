@@ -1,4 +1,4 @@
-/* .boutt {
+.boutt {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,4 +8,5 @@
     width: 10vw;
     height: 5vh;
     margin: 20px;
-} */
+    border-radius: 12px;
+}

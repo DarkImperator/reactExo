@@ -2,6 +2,9 @@ import DinoHeader from './components/DinoHeader';
 import HelloInput from './components/HelloInput';
 import HelloDisplay from './components/HelloDisplay';
 import DinoCard from './components/DinoCard';
+import Filter from './components/Filter';
+import Footer from './components/Footer';
+
 import { useState } from 'react';
 
 import './App.css'
@@ -44,7 +47,7 @@ const DinoList = [
     description : "Muttaburrasaurus est un genre éteint de dinosaure herbivore ornithopode du Crétacé inférieur proche d'Iguanodon. Il mesurait environ 9 mètres de long et pesait entre 2 et 3 tonnes.",
     type: "Terrestre",
     alim: "Végétale",
-    posture: "Quadrupède, Bipède",
+    posture: "Quadrupède",
     taille: "Moyenne",
   },
   {
@@ -93,17 +96,6 @@ function App() {
 
   const [firstname, setFirstName] = useState("Dark Abdou Chicken");
   const [dinos, setDinos] = useState(DinoList);
-  // voir avec dinos
-  const handleClickType = () => {
-    setDinos(dinos.filter((din => 
-      din.type === "Terrestre"
-    )
-  )) 
-  }
-
-  const handleClickReset = () => {
-    setDinos(DinoList);
-  }
 
   return (
     <>
@@ -116,13 +108,8 @@ function App() {
         })
       }
     </section>
-    <div className="boutt">
-        <button onClick={handleClickType}>Type</button>
-        <button>Alimentation</button>
-        <button>Posture</button>
-        <button>Taille</button>
-    </div>
-    <button onClick={handleClickReset}>Reset</button>
+    <Filter dinos={dinos} setDinos={setDinos} DinoList={DinoList}/>
+    <Footer/>
     </>
   )
 }
