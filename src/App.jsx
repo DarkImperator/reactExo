@@ -12,7 +12,7 @@ import './App.css'
 const DinoList = [
   {
     id:1,
-    name: "Tyrannausaure-Rex",
+    name: "Tyrannosaure-Rex",
     ImgSrc: "https://static.nationalgeographic.fr/files/styles/image_3200/public/01-trex-scotty_publicity_websize-credit-beth-zaiken.jpg?w=1600",
     description : "Tyrannosaure rex, communément appelé T-rex, est un genre éteint de dinosaures théropodes appartenant à la famille des Tyrannosauridae. T-rex était un carnassier bipède doté d'un crâne massif équilibré par une longue queue puissante.",
     type: "Terrestre",
